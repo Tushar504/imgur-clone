@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur:The magic of the internet</title>
+    <script src="https://kit.fontawesome.com/98a5badee8.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="./styles//home.css">
+</head>
+
+     
+ 
+      
+    
+   
+<body>
+    <div id="first_container" onclick="funct()">
+    <div id="mainDiv">
+        <div id="logo_Div">
+            <img id="img1" src="./images/logo.png"/>
+            <img id="img2" src="./images/logo2.png"/>
+        </div>
+        <div id="inputOutDiv">
+        <div id="InputDiv">
+            <input oninput="debounce(getData(),1000)" id="Input" placeholder="movies,#tags,@users oh my!" type="text"/>
+           <img id="searchImg" src="./images/search.png"/>
+        </div>
+        <div id="debounce">
+
+        </div>
+    </div>
+        <div id="button_div">
+            <button id="one">Go Ad-Free</button>
+            <button id="two">Sign in</button>
+            <button id="three">Sign up</button>
+        </div>
+    </div>
+   <div id="upsideMovies">
+     <h1>You miss movies that you should watch .</h1>
+     <div id="Data">
+
+     </div>
+    </div>
+    
+</div>
+<div id="moviesData">
+  
+</div>
+</body>
+</html>
+<script src="./scripts/home.js"></script>

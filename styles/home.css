@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(46,48,53);
+}
+#first_container{
+    margin:0px;
+    background-color: rgb(23,21,68);
+  
+    padding: 5px;
+    width: 100%;
+}
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+   
+   
+}
+#logo_Div{
+   
+    width: 15%;
+    display: flex;
+}
+#img1{
+    width: 45%;
+    margin-right: 15px;
+}
+#img2{
+    width: 50%;
+}
+#inputOutDiv{
+width: 30%;
+}
+#InputDiv{
+    background-color:rgb(69,68,105);
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border-radius: 8px;
+}
+#searchImg{
+    width:30px;
+    height:30px
+}
+#Input{
+    background-color: rgb(69,68,105);
+    border: none;
+    background-color: transparent;
+     resize: none;
+     outline: none;
+     width: 90%;
+     color: white;
+     padding-left: 10px;
+     font-weight: bold;
+     font-size: 18px;
+} 
+#one{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+#button_div{
+    width:15% ;
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+}
+#two{
+    background: none;
+    color: white;
+
+}
+#debounce{
+  width: 30%;
+  visibility: hidden;
+  height: 500px;
+   overflow: auto;
+  position:absolute;
+  background-color: white;
+}
+#moviesData{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+    grid-gap: 20px;
+   
+}
+.singleDiv{
+    text-align: center;
+}
+.singleDiv>img{
+  width: 100%;
+  height: 400px;
+}
+#upsideMovies{
+    text-align: center;
+    margin-top: 100px;
+}
+#upsideMovies>h1{
+    color:blueviolet
+}
+#Data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.Divs{
+   width: 100px;
+   background-color: antiquewhite;
+   margin: 10px;
+}
+.Divs>img{
+   width: 100%;
+}
